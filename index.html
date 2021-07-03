@@ -7,24 +7,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nuttapong's Resume</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400:500;700&display=swap" rel="stylesheet">
 
   <style>
-    .head {
-      font-size: x-large;
-      color: blue;
+    .main {
+      font-size: 60px;
       text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
     }
 
-    .bhead {
-      font-size: small;
-      color: black;
+    .des {
+      font-size: 20px;
       text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 500;
+
     }
 
-    .context {
-      font-size: medium;
-      color: dimgray;
+    .context.m {
+      font-size: 22px;
       text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+    }
+
+    .header {
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+    }
+
+    .header.s {
+      font-size: 26px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+    }
+
+    .context.s {
+      font-size: 18px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 300;
+    }
+
+    .navbar {
+      font-size: 18px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
     }
 
     img {
@@ -35,106 +68,108 @@
     }
 
     .box {
-      height: 150px;
-      max-height: 200px;
+      height: 200px;
+
     }
   </style>
 
 </head>
 
-<body class="bg-blue-300">
+<body class="bg-gray-900">
 
-  <div class=" flex my-36 justify-center space-x-2 items-start max-w-screen-lg mx-auto">
+  <div class=" flex my-24 justify-center space-x-2  max-w-screen-xl mx-auto">
 
     <!-- home contace exp bar -->
     <div class="space-y-2">
-      <div class="bg-red-200 p-2 pr-20">
-        <p>home</p>
+      <div class="bg-gray-500 p-2 pr-20">
+        <p class="text-white navbar">HOME</p>
       </div>
-      <div class="bg-red-200 p-2 pr-20">
-        <a href="skills.html" target="_blank">skills</a>
+      <div class="bg-gray-500 p-2 pr-20">
+        <a class="text-white navbar" href="skills.html" target="_blank">SKILLS</a>
       </div>
-      <div class="bg-red-200 p-2 pr-20">
-        <a href="experience.html" target="_blank">experience</a>
+      <div class="bg-gray-500 p-2 pr-20">
+        <a class="text-white navbar" href="experience.html" target="_blank">EXPERIENCE</a>
       </div>
-      <div class="bg-red-200 p-2 pr-24">
-        <a href="contact.html" target="_blank">contact</a>
+      <div class="bg-gray-500 p-2 pr-24">
+        <a class="text-white navbar" href="contact.html" target="_blank">CONTACT</a>
       </div>
     </div>
 
     <!-- homepage -->
-    <div class="bg-white p-10 ">
-      <div class="pt-12 pb-8 flex justify-center ">
+    <div class=" bg-blue-100 p-10 ">
+      <div class="pt-12 pb-6 flex justify-center ">
         <img class="w-36 h-336 rounded-full" src="./picture/cat.jpg">
       </div>
 
       <!-- main description -->
       <div>
-        <p class="head">Lorem, ipsum dolor.</p>
-        <p class="bhead">Lorem ipsum dolor sit.</p>
+        <p class="main text-gray-900">Nuttapong Boonsala</p>
+        <p class="des text-gray-500">student, programmer(-to-be), gamer, cat lover </p>
         <br>
-        <p class="context">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, reiciendis! Soluta iure totam
-          alias in aliquam illum sapiente rerum fuga?</p>
+        <p class=" context m">Hello! My name is Nuttapong Boonsala.Studying computer engineering, Chiangmai University.
+          I'm interested in programing, coding and web developing. </p>
         <br>
       </div>
 
       <!-- hobby -->
-<div class="space-y-4">
+      <div class="space-y-4">
+        <!-- hobby header -->
+        <div class="mt-8">
+          <p class="header"> My Hobbies</p>
+          <br>
+        </div>
 
-<!-- hobby header -->
-<div>
-  <p class="head text-lg"> Lorem ipsum dolor sit.</p>
-  <br>
-</div>
+        <!-- hobby 1 -->
+        <div class="bg-gray-500 flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
+          <img class="" src="./picture/cat.jpg">
+          <div class="p-6">
+            <div>
+              <p class="header s text-white">Gaming</p>
+            </div>
+            <div>
+              <p class="context s text-gray-300">I love playing game! I have been playing games since I was kid till
+                now. I usually play moba, puzzle, sandbox, survival and farming game. However, I'm not fond of fps-game
+                cause of motion sickness.</p>
+            </div>
+          </div>
 
-<!-- hobby 1 -->
-<div class="bg-white flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
-  <img class="" src="./picture/cat.jpg">
-  <div class="p-6">
-    <div>
-      <p class="context">Lorem, ipsum dolor.</p>
-    </div>
-    <div>
-      <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
-        corporis sint architecto dignissimos.</p>
-    </div>
-  </div>
+        </div>
 
-</div>
+        <!-- hobby 2 -->
+        <div class="bg-gray-500 flex shadow-md rounded-l-xl ring-1  ring-gray-300 box">
 
-<!-- hobby 2 -->
-<div class="bg-white flex shadow-md rounded-l-xl ring-1  ring-gray-300 box">
-  
-  <div class="p-6">
-    <div>
-      <p class="context">Lorem, ipsum dolor.</p>
-    </div>
-    <div>
-      <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
-        corporis sint architecto dignissimos.</p>
-    </div>
-  </div>
-  <img class="" src="./picture/cat.jpg">
-</div>
+          <div class="p-6">
+            <div>
+              <p class="header s text-white">Running</p>
+            </div>
+            <div>
+              <p class="context s text-gray-300">Staying in front of computer too much may cause physical health worse.
+                So, I choose running as excercising. It's easy to do, just run forward and keep running as much as you
+                can! </p>
+            </div>
+          </div>
+          <img class="" src="./picture/cat.jpg">
+        </div>
 
-<!-- hobby 3 -->
-<div class="bg-white flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
-  <img class="" src="./picture/cat.jpg">
-  <div class="p-6">
-    <div>
-      <p class="context">Lorem, ipsum dolor.</p>
-    </div>
-    <div>
-      <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
-        corporis sint architecto dignissimos.</p>
-    </div>
-  </div>
+        <!-- hobby 3 -->
+        <div class="bg-gray-500 flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
+          <img class="" src="./picture/cat.jpg">
+          <div class="p-6">
+            <div>
+              <p class="header s text-white">Reading and Learning</p>
+            </div>
+            <div>
+              <p class="context s text-gray-300">I like reading, Not only mangas or comics, but also some articles
+                ,sometimes. I also like learning something new. I really like the feeling when I have learnt something
+                new! </p>
+            </div>
+          </div>
 
-</div>
+        </div>
 
-</div>
+      </div>
 
-      
+
 
     </div>
 
