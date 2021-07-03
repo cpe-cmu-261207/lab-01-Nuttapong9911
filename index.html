@@ -26,13 +26,25 @@
       color: dimgray;
       text-align: center;
     }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+
+      object-fit: contain;
+    }
+
+    .box {
+      height: 150px;
+      max-height: 200px;
+    }
   </style>
 
 </head>
 
 <body class="bg-blue-300">
 
-  <div class=" flex my-36 justify-center space-x-2 items-start max-w-screen-xl mx-auto">
+  <div class=" flex my-36 justify-center space-x-2 items-start max-w-screen-lg mx-auto">
 
     <!-- home contace exp bar -->
     <div class="space-y-2">
@@ -40,28 +52,90 @@
         <p>home</p>
       </div>
       <div class="bg-red-200 p-2 pr-20">
-        <p>skills</p>
+        <a href="skills.html" target="_blank">skills</a>
       </div>
       <div class="bg-red-200 p-2 pr-20">
-        <p>experience</p>
+        <a href="experience.html" target="_blank">experience</a>
       </div>
       <div class="bg-red-200 p-2 pr-24">
-        <p>contact</p>
+        <a href="contact.html" target="_blank">contact</a>
       </div>
     </div>
 
     <!-- homepage -->
-
     <div class="bg-white p-10 ">
       <div class="pt-12 pb-8 flex justify-center ">
         <img class="w-36 h-336 rounded-full" src="./picture/cat.jpg">
       </div>
 
+      <!-- main description -->
+      <div>
+        <p class="head">Lorem, ipsum dolor.</p>
+        <p class="bhead">Lorem ipsum dolor sit.</p>
+        <br>
+        <p class="context">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, reiciendis! Soluta iure totam
+          alias in aliquam illum sapiente rerum fuga?</p>
+        <br>
+      </div>
 
-      <p class="head">Lorem, ipsum dolor.</p>
-      <p class="bhead">Lorem ipsum dolor sit.</p>
-      <br>
-      <p class="context">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, reiciendis! Soluta iure totam alias in aliquam illum sapiente rerum fuga?</p>
+      <!-- hobby -->
+<div class="space-y-4">
+
+<!-- hobby header -->
+<div>
+  <p class="head text-lg"> Lorem ipsum dolor sit.</p>
+  <br>
+</div>
+
+<!-- hobby 1 -->
+<div class="bg-white flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
+  <img class="" src="./picture/cat.jpg">
+  <div class="p-6">
+    <div>
+      <p class="context">Lorem, ipsum dolor.</p>
+    </div>
+    <div>
+      <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
+        corporis sint architecto dignissimos.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- hobby 2 -->
+<div class="bg-white flex shadow-md rounded-l-xl ring-1  ring-gray-300 box">
+  
+  <div class="p-6">
+    <div>
+      <p class="context">Lorem, ipsum dolor.</p>
+    </div>
+    <div>
+      <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
+        corporis sint architecto dignissimos.</p>
+    </div>
+  </div>
+  <img class="" src="./picture/cat.jpg">
+</div>
+
+<!-- hobby 3 -->
+<div class="bg-white flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
+  <img class="" src="./picture/cat.jpg">
+  <div class="p-6">
+    <div>
+      <p class="context">Lorem, ipsum dolor.</p>
+    </div>
+    <div>
+      <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
+        corporis sint architecto dignissimos.</p>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+      
+
     </div>
 
   </div>
