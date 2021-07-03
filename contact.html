@@ -7,9 +7,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+    <style>
+        .head {
+          font-size: x-large;
+          color: blue;
+          text-align: center;
+        }
+    
+        .bhead {
+          font-size: small;
+          color: black;
+          text-align: center;
+        }
+    
+        .context {
+          font-size: medium;
+          color: dimgray;
+          text-align: center;
+        }
+    
+        img {
+          max-width: 100%;
+          max-height: 100%;
+    
+          object-fit: contain;
+        }
+    
+        .box {
+          height: 150px;
+          max-height: 200px;
+        }
+      </style>
+
 </head>
 
-<body>
+<body class="bg-blue-300">
+
+    <div class=" flex my-36 justify-center space-x-2 items-start max-w-screen-lg mx-auto">
+
+        <!-- home contace exp bar -->
+        <div class="space-y-2">
+          <div class="bg-red-200 p-2 pr-20">
+            <a href="index.html" target="_blank">home</a>
+          </div>
+          <div class="bg-red-200 p-2 pr-20">
+            <a href="skills.html" target="_blank">skills</a>
+          </div>
+          <div class="bg-red-200 p-2 pr-20">
+            <a href="experience.html" target="_blank">experience</a>
+          </div>
+          <div class="bg-red-200 p-2 pr-24">
+            <p>contact</p>
+          </div>
+        </div>
+    
+        <!-- homepage -->
+        <div class="bg-white p-10 ">
+          
+          <!-- skills -->
+          <div class="space-y-4">
+    
+            <!-- skills header -->
+            <div>
+              <p class="head text-lg"> Lorem ipsum dolor sit.</p>
+              <br>
+            </div>
+    
+            <!-- skill 1 -->
+            <div class="bg-white flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
+              <img class="" src="./picture/cat.jpg">
+              <div class="p-6">
+                <div>
+                  <p class="context">Lorem, ipsum dolor.</p>
+                </div>
+                <div>
+                  <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
+                    corporis sint architecto dignissimos.</p>
+                </div>
+              </div>
+    
+            </div>
+    
+            <!-- skill 2 -->
+            <div class="bg-white flex shadow-md rounded-l-xl ring-1  ring-gray-300 box">
+    
+              <div class="p-6">
+                <div>
+                  <p class="context">Lorem, ipsum dolor.</p>
+                </div>
+                <div>
+                  <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
+                    corporis sint architecto dignissimos.</p>
+                </div>
+              </div>
+              <img class="" src="./picture/cat.jpg">
+            </div>
+    
+            <!-- skill 3 -->
+            <div class="bg-white flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
+              <img class="" src="./picture/cat.jpg">
+              <div class="p-6">
+                <div>
+                  <p class="context">Lorem, ipsum dolor.</p>
+                </div>
+                <div>
+                  <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
+                    corporis sint architecto dignissimos.</p>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+    
+    
+    
+        </div>
+    
+      </div>
 
 </body>
 
