@@ -2,130 +2,148 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXPERIENCE</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    
-    <style>
-        .head {
-          font-size: x-large;
-          color: blue;
-          text-align: center;
-        }
-    
-        .bhead {
-          font-size: small;
-          color: black;
-          text-align: center;
-        }
-    
-        .context {
-          font-size: medium;
-          color: dimgray;
-          text-align: center;
-        }
-    
-        img {
-          max-width: 100%;
-          max-height: 100%;
-    
-          object-fit: contain;
-        }
-    
-        .box {
-          height: 150px;
-          max-height: 200px;
-        }
-      </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXPERIENCE</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400:500;700&display=swap" rel="stylesheet">
+
+  <style>
+    .main {
+      font-size: 60px;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+    }
+
+    .des {
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 500;
+
+    }
+
+    .context.m {
+      font-size: 22px;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+    }
+
+    .header {
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+    }
+
+    .header.s {
+      font-size: 26px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+    }
+
+    .context.s {
+      font-size: 18px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 300;
+    }
+
+    .navbar {
+      font-size: 18px;
+      text-align: left;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+
+      object-fit: contain;
+    }
+
+    .box {
+      height: 200px;
+
+    }
+  </style>
 
 </head>
 
-<body class="bg-blue-300">
+<body class="bg-gray-900">
 
-    <div class=" flex my-36 justify-center space-x-2 items-start max-w-screen-lg mx-auto">
+  <div class=" flex my-24 justify-center space-x-2  max-w-screen-xl mx-auto">
 
-        <!-- home contace exp bar -->
-        <div class="space-y-2">
-          <div class="bg-red-200 p-2 pr-20">
-            <a href="index.html" target="_blank">home</a>
-          </div>
-          <div class="bg-red-200 p-2 pr-20">
-            <a href="skills.html" target="_blank">skills</a>
-          </div>
-          <div class="bg-red-200 p-2 pr-20">
-            <p>experience</p>
-          </div>
-          <div class="bg-red-200 p-2 pr-24">
-            <a href="contact.html" target="_blank">contact</a>
-          </div>
-        </div>
-    
-        <!-- homepage -->
-        <div class="bg-white p-10 ">
-          
-          <!-- skills -->
-          <div class="space-y-4">
-    
-            <!-- skills header -->
-            <div>
-              <p class="head text-lg"> Lorem ipsum dolor sit.</p>
-              <br>
-            </div>
-    
-            <!-- skill 1 -->
-            <div class="bg-white flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
-              <img class="" src="./picture/cat.jpg">
-              <div class="p-6">
-                <div>
-                  <p class="context">Lorem, ipsum dolor.</p>
-                </div>
-                <div>
-                  <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
-                    corporis sint architecto dignissimos.</p>
-                </div>
-              </div>
-    
-            </div>
-    
-            <!-- skill 2 -->
-            <div class="bg-white flex shadow-md rounded-l-xl ring-1  ring-gray-300 box">
-    
-              <div class="p-6">
-                <div>
-                  <p class="context">Lorem, ipsum dolor.</p>
-                </div>
-                <div>
-                  <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
-                    corporis sint architecto dignissimos.</p>
-                </div>
-              </div>
-              <img class="" src="./picture/cat.jpg">
-            </div>
-    
-            <!-- skill 3 -->
-            <div class="bg-white flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
-              <img class="" src="./picture/cat.jpg">
-              <div class="p-6">
-                <div>
-                  <p class="context">Lorem, ipsum dolor.</p>
-                </div>
-                <div>
-                  <p class="context">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis possimus aperiam,
-                    corporis sint architecto dignissimos.</p>
-                </div>
-              </div>
-    
-            </div>
-    
-          </div>
-    
-    
-    
-        </div>
-    
+    <!-- home skills contact exp bar -->
+    <div class="space-y-2">
+      <div class="bg-gray-500 p-2 pr-20">
+        <a class="text-white navbar" href="index.html" >HOME</a>
       </div>
+      <div class="bg-gray-500 p-2 pr-20">
+        <a class="text-white navbar" href="skills.html" >SKILLS</a>
+      </div>
+      <div class="bg-gray-500 p-2 pr-20">
+        <p class="text-white navbar">EXPERIENCE</p>
+      </div>
+      <div class="bg-gray-500 p-2 pr-24">
+        <a class="text-white navbar" href="contact.html" >CONTACT</a>
+      </div>
+    </div>
+
+    
+    <div class="bg-blue-100 p-10 ">
+
+      <!-- experience -->
+      <div class="space-y-4">
+
+        <!-- experience header -->
+        <div>
+          <p class="header text-gray-900"> Experience</p>
+          <br>
+        </div>
+
+        <!-- experience 1 -->
+        <div class="bg-gray-500 flex shadow-md rounded-r-xl ring-1  ring-gray-300 box">
+          <img class="" src="./picture/scratch.jpg">
+          <div class="p-6">
+            <div>
+              <p class="header s text-white">Scratch</p>
+            </div>
+            <div>
+              <p class="context s text-white">This is my very first project. I created a game with team in scratch, it was quite fun. It is a fighting game that has 5-6 characters with different skills and you have to click as much as you can.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- experience 2 -->
+        <div class="bg-gray-500 flex shadow-md rounded-l-xl ring-1  ring-gray-300 box">
+
+          <div class="p-6">
+            <div>
+              <p class="header s text-white">C++</p>
+            </div>
+            <div>
+              <p class="context s text-white">Another project about game creating, it's a simulation game that simulate your life since you was born. </p>
+            </div>
+          </div>
+          <img class="" src="./picture/c++.jpg">
+        </div>
+
+        
+
+      </div>
+
+
+
+    </div>
+
+  </div>
 
 </body>
 
